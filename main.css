@@ -1,0 +1,157 @@
+    /*
+	LAYOUT STYLES
+*/
+/*
+	row block
+*/
+.row {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 20px;
+
+	/*min-height: 300px;*/
+	/*border: 1px solid red;*/
+}
+
+
+.banner {
+	background:url(http://fewdmaterials.github.io/developer_matchmaker/images/coworking.jpg) center center no-repeat;
+	background-position-x: 50%;
+	background-position-y: 50%;
+	background-size: cover;
+	padding: 3%;
+	overflow: hidden;
+	box-shadow: inset 0 0 5 px rgba (0,0,0,.75);
+	width: 100%;
+	height:400px;
+}
+
+.blurb {
+	width: 250px;
+	height: 350px;
+	float:right;
+	background-color:white;
+	opacity: 0.6;
+	border: black solid;
+	padding-left:5%;
+	padding-right: 5%;
+	margin-right: 30px;
+}
+
+.row__background {
+	background-color:red;
+	width:100%;
+	height: 100px;
+}
+.row__container {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+
+	box-sizing: border-box;
+	/*min-height: 300px;*/
+	/*border: 1px solid black;*/
+}
+
+/*
+	column block
+*/
+
+.columns {
+	display: flex;
+}
+
+.columns__thirds {
+	width: 33.33333%;
+	box-sizing: border-box;
+	border-right: 1px solid rgba(0,0,0,.15);
+
+	min-height: 300px;
+}
+
+.columns__thirds:last-child {
+	border-right: 1px solid transparent;
+}
+
+/*
+	generic flex-box block
+*/
+
+.flex-box {
+	display: flex;
+}
+
+.flex-box--row {
+	flex-direction: row;
+}
+
+.flex-box--wrap {
+	flex-wrap: wrap;
+}
+
+.flex-box__end {
+	align-self: flex-end;
+}
+
+.flex-box__end {
+	align-self: flex-end;
+	background-color: yellow;
+}
+
+/*
+	GENERAL STYLES
+*/
+
+html {
+	font-size: 10px;
+	/*font-family: font-family: 'Source Sans Pro', sans-serif;*/
+}
+
+/*
+	text-block block
+*/
+
+.text-block {
+	padding: 20px;
+}
+
+.text-block__header {
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+	font-size: 2.5rem;
+	line-height: 5rem;
+}
+
+.text-block__boldheader {
+	font-family: 'Merriweather', serif;
+	font-weight: 800;
+	font-size: 2.5rem;
+	line-height: 5rem;
+}
+
+.text-block__content {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 2rem;
+	line-height: 3rem;
+}
+
+/*
+	button block
+*/
+
+.button {
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px -3px 0px 0px inset;
+	padding: 12px;
+	background-color: rgb(198,198,198);
+	font-family: Oswald, sans-serif;
+	font-size: 2rem;
+	line-height: 3rem;
+	text-align: center;
+	text-transform: uppercase;
+	width: 100%;
+}
+
+.body {
+	line-height: 1;
+}
